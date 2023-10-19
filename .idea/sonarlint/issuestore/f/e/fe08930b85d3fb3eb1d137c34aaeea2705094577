@@ -1,0 +1,23 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úû“Ùûÿÿÿÿ8®¥ìÈ²1
+W	java:S125"<This block of commented-out lines of code should be removed.(…¾ü28İ¥ìÈ²1
+G	java:S106#"+Replace this use of System.out by a logger.(«ÇÔ˜8á¥ìÈ²1
+L	java:S106&"+Replace this use of System.out by a logger.(ï§²àûÿÿÿÿ8á¥ìÈ²1
+G	java:S106)"+Replace this use of System.out by a logger.(‘›´š8á¥ìÈ²1
+G	java:S106/"+Replace this use of System.out by a logger.(¼’„¿8â¥ìÈ²1
+L	java:S1063"+Replace this use of System.out by a logger.(”²Ğ„ÿÿÿÿÿ8â¥ìÈ²1
+G	java:S1066"+Replace this use of System.out by a logger.(Îéæ8â¥ìÈ²1
+L	java:S1069"+Replace this use of System.out by a logger.(ûÇ´±ıÿÿÿÿ8â¥ìÈ²1
+G	java:S106@"+Replace this use of System.out by a logger.(Ù¨¢”8â¥ìÈ²1
+G	java:S106B"+Replace this use of System.out by a logger.(°ù­“8â¥ìÈ²1
+G	java:S106D"+Replace this use of System.out by a logger.(¦ØÿÕ8ã¥ìÈ²1
+L	java:S106F"+Replace this use of System.out by a logger.(ÿÉË‘ûÿÿÿÿ8ã¥ìÈ²1
+L	java:S106H"+Replace this use of System.out by a logger.(Ëù·Üıÿÿÿÿ8ã¥ìÈ²1
+…
+java:S1157N"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¼”„ùÿÿÿÿ8ã¥ìÈ²1
+€
+java:S1157Q"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(Ùú˜¤8ã¥ìÈ²1
+
+java:S1157T"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(Ó·åX8ã¥ìÈ²1
+€
+java:S1157W"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¨ÙºÔ8ã¥ìÈ²1

@@ -1,0 +1,16 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾¶Ç8ËëóÈ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Çµèúÿÿÿÿ8ÌëóÈ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ìó¬8ÌëóÈ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÈêªüÿÿÿÿ8ÌëóÈ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï’Ëçûÿÿÿÿ8ÌëóÈ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŠÚÉ8ÌëóÈ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¯¢şÿÿÿÿ8ÌëóÈ²1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©¦ºÒûÿÿÿÿ8ÎëóÈ²1
+H
+java:S1168M"+Return an empty collection instead of null.(¥¹ï8áëóÈ²1
+T
+java:S1135L"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8áëóÈ²1
+T
+java:S1135R"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8áëóÈ²1

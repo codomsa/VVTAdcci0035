@@ -1,0 +1,19 @@
+
+o
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍÍÄÄ
+t
+java:S2293M"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ»Ü‹úÿÿÿÿ
+P
+java:S11418"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©¦ºÒûÿÿÿÿ
+b
+java:S2095 "LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Žù»²
+<
+java:S1170"!Make this final field static too.(Éý®Çùÿÿÿÿ
+V
+java:S11173"@Rename "employeeList" which hides the field declared at line 20.(ÍÍÄÄ
+Q	java:S125;"<This block of commented-out lines of code should be removed.(ÏËÓž
+E	java:S106="+Replace this use of System.err by a logger.(ÕÄš€ûÿÿÿÿ
+@	java:S106A"+Replace this use of System.err by a logger.(ÿÉ›º
+V	java:S125P"<This block of commented-out lines of code should be removed.(¹¶»àüÿÿÿÿ
+V	java:S125R"<This block of commented-out lines of code should be removed.(¹¶»àüÿÿÿÿ
