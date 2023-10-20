@@ -6,10 +6,10 @@ import AngajatiApp.model.Employee;
 public class EmployeeValidator {
 
 	public boolean isValid(Employee employee) {
-		return isFirstNameValid(employee) 
-				&& isLastNameValid(employee) 
-				&& isCnpValid(employee) 
-				&& isFunctionValid(employee) 
+		return isFirstNameValid(employee)
+				&& isLastNameValid(employee)
+				&& isCnpValid(employee)
+				&& isFunctionValid(employee)
 				&& isSalaryValid(employee);
 	}
 
@@ -19,12 +19,12 @@ public class EmployeeValidator {
 
 	private boolean isFunctionValid(Employee employee) {
 		return employee.getFunction().equals(DidacticFunction.ASSISTANT)
-				|| employee.getFunction().equals(DidacticFunction.LECTURER) 
+				|| employee.getFunction().equals(DidacticFunction.LECTURER)
 				|| employee.getFunction().equals(DidacticFunction.PROFESSOR)
 				|| employee.getFunction().equals(DidacticFunction.ASSOCIATE);
 	}
 
-	private boolean isCnpValid(Employee employee) {
+	public boolean isCnpValid(Employee employee) {
 		return employee.getCnp().matches("[a-z0-9]+") && (employee.getCnp().length() == 13);
 	}
 
@@ -32,10 +32,10 @@ public class EmployeeValidator {
 		return employee.getLastName().matches("[a-zA-Z]+") && (employee.getLastName().length() > 2);
 	}
 
-	private boolean isFirstNameValid(Employee employee) {
+	public boolean isFirstNameValid(Employee employee) {
 		return employee.getFirstName().matches("[a-zA-Z]+") && (employee.getFirstName().length() > 2);
 	}
-	
+
 }
 
 
