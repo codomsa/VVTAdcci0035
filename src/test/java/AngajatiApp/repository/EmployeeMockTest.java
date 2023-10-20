@@ -23,16 +23,33 @@ public class EmployeeMockTest {
 
     @Test
     public void testAddEmployeeTooLongCNP() {
-        Employee emp = new Employee("John", "Doe", "123456789012345", DidacticFunction.ASSISTANT, 3000.0);
+        Employee emp = new Employee("John", "Doe", "12345678901234", DidacticFunction.ASSISTANT, 3000.0);
         assertFalse(employeeMock.addEmployee(emp));
     }
 
     @Test
-    public void testAddEmployeeValidFunction() {
+    public void testAddEmployeeTooShortCNP() {
+        Employee emp = new Employee("John", "Doe", "123456789012", DidacticFunction.ASSISTANT, 3000.0);
+        assertFalse(employeeMock.addEmployee(emp));
+    }
+    @Test
+    public void testAddEmployeeValidFunctionASSI() {
         Employee emp = new Employee("John", "Doe", "1234567890123", DidacticFunction.ASSISTANT, 3000.0);
         assertTrue(employeeMock.addEmployee(emp));
     }
-
+    @Test
+    public void testAddEmployeeValidFunctionLECT() {
+        Employee emp = new Employee("John", "Doe", "1234567890123", DidacticFunction.LECTURER, 3000.0);
+        assertTrue(employeeMock.addEmployee(emp));
+    }    @Test
+    public void testAddEmployeeValidFunctionPROF() {
+        Employee emp = new Employee("John", "Doe", "1234567890123", DidacticFunction.PROFESSOR, 3000.0);
+        assertTrue(employeeMock.addEmployee(emp));
+    }    @Test
+    public void testAddEmployeeValidFunctionASSO() {
+        Employee emp = new Employee("John", "Doe", "1234567890123", DidacticFunction.ASSOCIATE, 3000.0);
+        assertTrue(employeeMock.addEmployee(emp));
+    }
     @Test
     public void testAddEmployeeFirstNameMoreThanTwoChars() {
         Employee emp = new Employee("Joh", "Doe", "1234567890123", DidacticFunction.ASSISTANT, 3000.0);;
