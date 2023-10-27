@@ -51,7 +51,7 @@ public class EmployeeMock implements EmployeeRepositoryInterface {
 	/**
 	 * Modifica atributul 'functia didactica' pentru un angajat dat
 	 * @param employee - anagajtul eptnru care se modifica atributul 'functia didactica'
-	 * @param newFunction - noua functie didactica (ASISTENT, LECTURER, TEACHER, CONFERENTIAR)
+	 * @param newFunction - noua functie didactica (ASSISTANT, LECTURER, PROFESSOR, ASSOCIATE)
 	 */
 	@Override
 	public void modifyEmployeeFunction(Employee employee, DidacticFunction newFunction) {

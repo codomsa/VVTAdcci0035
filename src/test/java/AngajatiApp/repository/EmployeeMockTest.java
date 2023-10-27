@@ -92,4 +92,40 @@ public class EmployeeMockTest {
         assertFalse(employeeMock.addEmployee(emp));
     }
 
+    @Test
+    public void testModifyEmployeeFunction_Valid() {
+        Employee e = new Employee("Test", "User", "1234567890876", DidacticFunction.ASSISTANT, 200d);
+        employeeMock.addEmployee(e);
+        employeeMock.modifyEmployeeFunction(e, DidacticFunction.ASSOCIATE);
+        assertEquals(DidacticFunction.ASSOCIATE, e.getFunction());
+    }
+
+    @Test
+    public void testModifyEmployeeFunction_NullEmployee() {
+        Employee e = null;
+        assertDoesNotThrow(() -> employeeMock.modifyEmployeeFunction(e, DidacticFunction.ASSOCIATE));
+    }
+
+    @Test
+    public void testModifyEmployeeFunction_InvalidEmployee() {
+        Employee e = new Employee("TestInvalid", "UserInvalid", "INVALID_CNP", DidacticFunction.ASSISTANT, -1d);
+        employeeMock.modifyEmployeeFunction(e, DidacticFunction.ASSOCIATE);
+        assertFalse(employeeMock.getEmployeeList().contains(e));
+    }
+
+    @Test
+    public void testModifyEmployeeFunction_EmployeeNotInList() {
+        Employee e = new Employee("TestNotInList", "UserNotInList", "1234567890000", DidacticFunction.ASSISTANT, 200d);
+        employeeMock.modifyEmployeeFunction(e, DidacticFunction.ASSOCIATE);
+        assertFalse(employeeMock.getEmployeeList().contains(e));
+    }
+
+    @Test
+    public void testModifyEmployeeFunction_EmployeeInList() {
+        Employee e = new Employee("TestInList", "UserInList", "1234567891111", DidacticFunction.ASSISTANT, 200d);
+        employeeMock.addEmployee(e);
+        employeeMock.modifyEmployeeFunction(e, DidacticFunction.ASSOCIATE);
+        assertEquals(DidacticFunction.ASSOCIATE, e.getFunction());
+    }
+
 }
